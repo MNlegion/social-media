@@ -9,7 +9,7 @@ const PORT = process.env.PORT || 5000;
 app.use(bodyParser.json());
 
 // MongoDB connection (replace 'your_database_url' with your actual MongoDB URL)
-mongoose.connect('mongodb://localhost:5000/', { useNewUrlParser: true, useUnifiedTopology: true });
+mongoose.connect('mongodb://localhost:5000', { useNewUrlParser: true, useUnifiedTopology: true });
 
 // Routes (to be added later)
 // Add these lines after the MongoDB connection
